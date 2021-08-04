@@ -1,39 +1,60 @@
 ## Simple JavaScript Examples
 
-1. Hamburger Button
+유튜브를 보다가 따라하면 재밌을 것 같아서 만들어본 간단한 자바스크립트 예제입니다.<br>
+자바스크립트 초보자가 공부하기에 좋은 영상인 것 같습니다.
 
-- button + hamburger icon
-- menu > li > a -> hidden
-- toggle on click
-- animation
+### 1번부터 10번까지의 유튜브 링크
+> [https://www.youtube.com/watch?v=8GPPJpiLqHk](https://www.youtube.com/watch?v=8GPPJpiLqHk)
 
-2. Toast Notification
 
-- toast container floating
-- toast design
-- button
-- click show random toast message
+#### 1. Hamburger Button ( 메뉴버튼 )
 
-3. Auto Write Text
+- 버튼 생성(햄버거 아이콘)
+- 숨겨진 메뉴를 생성
+- 버튼 클릭시 토글 이벤트로 메뉴 Show/Hide
+- animation을 이용하여 옆에서 나오도록 코딩
 
-- text
-- index
-- show text based on index
-- increment index
+#### 2. Toast Notification ( 알람 )
 
-4. Popup / Modal
+- 버튼 생성 및 디자인
+- 버튼 클릭시 알람 문구 노출
+- 알람 문구 디자인
 
-- button
-- click on button to activate popup
-- popup container
-- popup with text
-- close btn popup with click event
+#### 3. Auto Write Text ( 자동으로 써지는 텍스트 )
 
-5. Purple Heart Rain
+- 자바스크립트를 이용하여 Text를 저장
+- 해당의 Text를 한글자씩 보여짐
 
-- heart css ( 하트이미지 생성 )
-- create heart ( 여러개 하트 생성 )
-- add class 
-- add it to body
-- falling animation ( 떨어지는 애니메이션 )
-- interval
+#### 4. Popup / Modal ( 팝업 )
+
+- 팝업 열기 버튼 디자인
+- 팝업 디자인
+- 팝업 열기 이벤트 / 팝업 닫기 이벤트
+
+#### 5. Purple Heart Rain ( 화면 전체에 위에서 아래로 떨어지는 하트 )
+
+- animation 을 이용하여 하트가 위에서 아래로 떨어지도록 코딩
+- interval 을 이용하여 하트가 랜덤으로 떨어지도록 코딩
+
+#### 6. Background Changer ( 배경 변경 )
+
+- 버튼 디자인
+- 버튼 클릭시 배경이 랜덤으로 변경
+
+#### 7. Dark mode toggle ( 다크모드 )
+
+- 제목과 내용 생성
+- 체크박스를 생성하여, 체크되면 배경이 어두워지는 이벤트 생성
+
+#### 8. Carousel ( 회전하는 이미지 )
+
+- 이미지를 여러개 생성
+- 하나의 이미지만 보여지도록 디자인
+- 스크립트를 통해 2초마다 이미지가 자동으로 넘어가도록 이벤트 생성
+- 마지막 이미지에서는 다시 처음으로 돌아가도록 이벤트 설정
+
+#### 9. Sound Board ( 사운드 게시판 )
+
+- 버튼 생성
+- 버튼을 클릭시 사운드가 재생되도록 이벤트 설정
+- 사운드 재생되다가 다른 버튼 클릭시 기존 사운드는 정지
