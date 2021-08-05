@@ -118,7 +118,7 @@
 
             console.log(typeof urlAccess);
 
-            if( typeof urlAccess === 'string' ){
+            if( typeof urlAccess === 'string' && urlAccess.length !== '' ){
                 changeIframeUrl(urlAccess)
             }
 
