@@ -115,6 +115,6 @@
 <br>
 
 #### 12. Quiz App ( 퀴즈 앱 )
-> [예제 브라우저에서 확인하기](https://jayj-fe.github.io/Simple_JavaScript_Examples/?countdown-timer)
+> [예제 브라우저에서 확인하기](https://jayj-fe.github.io/Simple_JavaScript_Examples/?quiz-app)
 
 - 간단한 퀴즈 어플리케이션 만들기
