@@ -118,3 +118,12 @@
 > [예제 브라우저에서 확인하기](https://jayj-fe.github.io/Simple_JavaScript_Examples/?quiz-app)
 
 - 간단한 퀴즈 어플리케이션 만들기
+
+<br>
+
+#### 13. Recipe App ( 요리 앱 )
+> [예제 브라우저에서 확인하기](https://jayj-fe.github.io/Simple_JavaScript_Examples/?recipe-app)
+
+- API를 이용한 요리 앱
+- API를 이용한 검색, 레이어팝업, 좋아요 기능
+
