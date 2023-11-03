@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Swipe Open</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div style="text-align:center;">
+      <div class="swipe-open js-swipe-open">
+        <div class="swipe-open__pw">
+          <!-- 비밀번호 숫자 아닌 값이나 비밀번호가 다른 값으로 고정 / 보안이슈 -->
+          <span class="circle">ㄱ</span>
+          <span class="circle">ㄴ</span>
+          <span class="circle">ㄷ</span>
+          <span class="circle">ㄹ</span>
+          <span>+</span>
+          <span class="circle light_brown">*</span>
+        </div>
+        <button class="swipe-open__password">
+          <div class="icon_circle__password">
+            <img src="./images/icon_02.svg" alt="">
+          </div>
+          <img src="./images/icon_03.svg" alt="">
+          <div class="info_password">
+            비밀번호 확인은 <br>
+            <ins class="d-day">10월 20일 14시 45분</ins> 부터 확인 가능합니다.
+          </div>
+        </button>
+      </div>
+
+      <div class="swipe-open js-swipe-open">
+        <div class="swipe-open__pw">
+          <span class="circle">4</span>
+          <span class="circle">2</span>
+          <span class="circle">3</span>
+          <span class="circle">4</span>
+          <span>+</span>
+          <span class="circle light_brown">*</span>
+        </div>
+        <button class="swipe-open__password js-password-control">
+          <div class="icon_circle__password">
+            <img src="./images/icon_04.svg" alt="">
+          </div>
+          <img src="./images/icon_05.svg" alt="">
+          <div class="info_password">
+            <ins class="d-day">스와이프</ins>하여 비밀번호를 확인하세요.
+          </div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
